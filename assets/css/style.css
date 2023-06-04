@@ -1,0 +1,164 @@
+body{
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+}
+
+h1{
+    text-align: center;
+    color: #E9EDEE;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    display: inline;
+}
+
+h3 {
+    text-align: center;
+    color: #E9EDEE;
+    font-size: 1rem;
+}
+h4 {
+    text-align: center;
+    color: #E9EDEE;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+h5 {
+    color: #2C6871;
+    font-weight: bold;
+    display: inline;
+    margin-left: 2%;
+}
+
+
+/* HEADER */
+header {
+    background-color: #222F3F;
+}
+
+header img{
+    max-width: 150px;
+    margin: 1% 1% 1% 2%
+}
+
+/* SUBHEADER */
+
+#subheader{
+    background-color: #364759;
+
+}
+
+#subheader li,a{
+    color: #E9EDEE;
+    display: inline;
+    margin-left: 2%;
+    font-size: 1.2 rem;
+    text-decoration: none;
+}
+
+#subheader ul{
+    padding: 2%;
+    
+}
+
+/* MAIN */
+
+main{
+    width: 98%;
+    margin: 0 auto;
+}
+
+#shopGF {
+    background-color: #F56600;
+    margin: 2% 0;
+    padding: 1%;
+    
+}
+
+#holidayGift{
+    background-image: url(../img/bg-image.png);
+    background-size:contain;
+    height: 150px;
+    margin-bottom: 2%;
+    
+}
+
+#holidayGift h1{
+    padding: 3% 0 2%;
+}
+
+#cards{
+    background-color: white;
+    padding: 2%;
+    margin-bottom: 2%;
+    
+}
+
+#cards a{
+    color: #2C6871;
+}
+.col-container {
+    display: table;
+    width: 100%;
+    margin:auto;
+    
+  }
+  .col {
+    float: left;
+    padding: 2% 1.5% 2% 0%;
+
+  }
+
+  .col img {
+    width: 310px;
+    height: 500px;
+    margin-right: 2%;
+    border-radius: 10%;
+    object-fit: cover;
+    box-shadow: 8px 5px 16px -6px #888888;
+  }
+
+  .categories{
+    width: 100%;
+    text-align: center;
+  }
+
+  .categories img{
+    width: 100%;
+  }
+
+  .catTitle{
+    text-align: center;
+    margin-bottom: 3%;
+  }
+
+  .catTitle a{
+    color: #2C6871;
+    
+  }
+
+
+/* FOOTER */
+
+#up{
+    background-color: #364759;
+    padding: 1.5%;
+    text-decoration: 1px solid white underline;
+    font-weight: bold;
+}
+
+#footerLogo{
+    background-color: #222F3F; 
+    text-align: center;  
+}
+
+#footerLogo img{
+    width: 200px;
+    padding: 5%;
+    
+}
